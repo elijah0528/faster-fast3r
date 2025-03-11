@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+accelerator: mps
+devices: 1
+precision: 32  # MPS doesn't support mixed precision yet
